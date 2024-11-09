@@ -57,7 +57,7 @@ export const projects = {
   webProjects: [
     {
       projectName: "Qalam Odoo Form Filler",
-      image: "images/qalam_form_filler.png", // Add an image path here
+      image: "images/qalam.png", // Add an image path here
       summary:
         "Developed a form filler tool for Qalam Odoo using Scrapy and XPath to automate the completion of feedback forms.",
       preview: "https://github.com/MasterChief220/qalam-form-filler",
@@ -65,25 +65,25 @@ export const projects = {
     },
     {
       projectName: "Personal Blog",
-      image: "images/blog.png", // Add an image path here
+      image: "images/Blog-Project.png", // Add an image path here
       summary:
         "Created a blog using Jekyll and Ruby to share insights and experiences in cybersecurity and technology.",
-      preview: "https://github.com/MasterChief220/Blog",
-      techStack: ["Jekyll", "Ruby"],
+      preview: "https://github.com/MasterChief220/Blogging-Website",
+      techStack: ["Jekyll", "Ruby","HTML"],
     },
     {
       projectName: "Portfolio Website",
-      image: "images/portfolio.png", // Add an image path here
+      image: "images/Portfolio.png", // Add an image path here
       summary:
         "Developed a personal portfolio website to showcase projects, skills, and contact information.",
-      preview: "https://github.com/MasterChief220/vinaysomawat.github.io",
+      preview: "https://github.com/MasterChief220/Professional-Portfolio",
       techStack: ["HTML", "CSS", "JavaScript"],
     },
   ],
   cybersecurityProjects: [
     {
       projectName: "Elastic Stack Setup",
-      image: "images/elastic_stack.png", // Add an image path here
+      image: "images/Elasticsearch.png", // Add an image path here
       summary:
         "Configured Elasticsearch, Kibana, Auditbeat, and Winlogbeat for log analysis and visualization.",
       preview: "", // No preview available
@@ -91,7 +91,7 @@ export const projects = {
     },
     {
       projectName: "PCAP Analysis with Snort and Zeek",
-      image: "images/pcap_analysis.png", // Add an image path here
+      image: "images/zeek.png", // Add an image path here
       summary:
         "Conducted real-time log analysis using Snort and Zeek, including custom rule writing.",
       preview: "", // No preview available
@@ -254,21 +254,21 @@ export const footer = [
   {
     label: "Links",
     data: [
-    //   {
-    //     text: "Linkedin",
-    //     link: "https://www.linkedin.com/in/vinaysomawat/",
-    //   },
+       {
+         text: "Linkedin",
+         link: "https://www.linkedin.com/in/mbassamkhan",
+       },
     //   {
     //     text: "Twitter",
     //     link: "https://twitter.com/thesigmakid",
     //   },
+     // {
+        //text: "Buy me a coffee",
+        //link: "https://www.buymeacoffee.com/r194dME8y",
+      //},
       {
-        text: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/r194dME8y",
-      },
-      {
-        text: "Github/vinaysomawat.github.io",
-        link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+        text: "Github/MasterChief.github.io",
+        link: "https://masterchief220.github.io/Professional-Portfolio/",
       },
     ],
   },
